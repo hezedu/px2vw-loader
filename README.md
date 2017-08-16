@@ -7,7 +7,9 @@ webpack loader wrap for [px2vw](https://github.com/hezedu/px2vw).
 ```js
 {
   test: /\.css$/,
-  use: ['css-loader',
+  use: [  
+          'style-loader',
+          'css-loader',
           {
             loader: 'px2vw-loader',
             options: {
