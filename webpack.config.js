@@ -1,16 +1,24 @@
 const path = require('path');
-const loader = require('./index')
+const loader = function(source) {
+  return source;
+};
+console.log(loader)
+
+
+
+
+
 module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'src'),
-    filename: 'result.css'
+    filename: 'result.js'
   },
    module: {
       rules: [
         {
           test: /\.css$/,
-          loader
+          use: ['test-loader', 'css-loader']
         }
       ]
    }

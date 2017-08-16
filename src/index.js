@@ -1,1 +1,2 @@
-require('./style.css');
+//require('./style.css');
+import style from './style.css'

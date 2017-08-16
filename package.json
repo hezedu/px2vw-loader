@@ -2,6 +2,9 @@
   "name": "px2vw-loader",
   "version": "0.0.1",
   "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hezedu/px2vw-loader.git"
@@ -16,6 +19,8 @@
     "px2vw": "^1.1.2"
   },
   "devDependencies": {
-    "loader-utils": "^1.1.0"
+    "css-loader": "^0.28.4",
+    "loader-utils": "^1.1.0",
+    "webpack": "^3.5.4"
   }
 }
