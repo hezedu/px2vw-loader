@@ -1,6 +1,6 @@
 {
   "name": "px2vw-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
     "start": "webpack"
@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "email": "hezedu@hotmail.com",
-  "description": "css px to vw webpack loader",
+  "description": "webpack loader wrap for px2vw",
   "dependencies": {
     "px2vw": "^1.1.2"
   }
