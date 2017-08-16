@@ -17,10 +17,5 @@
   "description": "css px to vw webpack loader",
   "dependencies": {
     "px2vw": "^1.1.2"
-  },
-  "devDependencies": {
-    "css-loader": "^0.28.4",
-    "loader-utils": "^1.1.0",
-    "webpack": "^3.5.4"
   }
 }
