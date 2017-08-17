@@ -1,6 +1,6 @@
 {
   "name": "px2vw-loader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "scripts": {
     "start": "webpack"
@@ -16,7 +16,6 @@
   "email": "hezedu@hotmail.com",
   "description": "webpack loader wrap for px2vw",
   "dependencies": {
-    "loader-utils": "^1.1.0",
     "px2vw": "^1.1.2"
   }
 }
