@@ -10,11 +10,11 @@ webpack loader wrap for [px2vw](https://github.com/hezedu/px2vw).
   use: [  
           'style-loader',
           'css-loader',
-          {
-            loader: 'px2vw-loader',
-            options: {
-              width: 640
-          }
+          'px2vw-loader'
     }]
 }
+```
+### source file
+```js
+require('some.css?px2vw=true&width=640')
 ```
