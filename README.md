@@ -1,4 +1,4 @@
-# px2vw-loader
+# px2vw-loader 0.2.2
 webpack loader wrap for [px2vw](https://github.com/hezedu/px2vw).
 ## install
 `npm install px2vw-loader`
@@ -16,5 +16,5 @@ webpack loader wrap for [px2vw](https://github.com/hezedu/px2vw).
 ```
 ### source file
 ```js
-require('some.css?px2vw=true&width=640')
+require('some.css?px2vw=true&width=640&minWidth=320')
 ```

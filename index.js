@@ -7,7 +7,7 @@ module.exports = function(content) {
   }
   const options = querystring.parse(this.resourceQuery.substr(1));
   if(options.px2vw){
-    return px2vw(Number(options.width), content);
+    return px2vw(Number(options.width), content, options.minWidth);
   }else{
     return content;
   }
