@@ -7,7 +7,8 @@ module.exports = function(content) {
   }
   const options = querystring.parse(this.resourceQuery.substr(1));
   if(options.px2vw){
-    return px2vw(Number(options.width), content, options.minWidth);
+    let fixedNum = options.fixedNum ? Number(options.fixedNum) : undefined;
+    return px2vw(Number(options.width), content, Number(options.minWidth), fixedNum);
   }else{
     return content;
   }
